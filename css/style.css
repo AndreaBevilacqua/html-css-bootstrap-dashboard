@@ -1,7 +1,38 @@
-.bg-custom {
+.bg-white {
     background-color: #E5E5E5;
 }
 
-.bg-custom-2 {
+.bg-gray {
     background-color: #eeeeee;
 }
+
+.bg-dark-blue {
+    background-color: #051E34;
+}
+
+#top-content {
+    height: 80px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#main-content {
+    height: calc(100vh - 80px);
+}
+
+.sidebar {
+    flex-basis: 160px;
+    flex-shrink: 0;
+}
+
+
+main {
+    background-color: black;
+    flex-grow: 1;
+    overflow: auto;
+}
+
