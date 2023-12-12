@@ -10,6 +10,10 @@
     background-color: #051E34;
 }
 
+.bg-blue {
+    background-color: #165BBA;
+}
+
 #top-content {
     height: 100px;
 
@@ -37,6 +41,7 @@
 .sidebar {
     flex-basis: 30px;
     flex-shrink: 0;
+    background-image: url(../img/sidebar-bg.png)
 }
 
 @media screen and (min-width:992px) {
@@ -54,4 +59,25 @@ header {
     min-height: 100px;
     background-color: #1B72E8;
 }
+
+.right-header i {
+    height: 45px;
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:576px) {
+    header {
+        flex-direction: column;
+    }
+
+    .right-header {
+        order: -1;
+    }
+}
+  
 
