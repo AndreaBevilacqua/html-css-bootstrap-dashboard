@@ -1,5 +1,5 @@
 .bg-white {
-    background-color: #E5E5E5;
+    background-color: #ffffff;
 }
 
 .bg-gray {
@@ -11,7 +11,7 @@
 }
 
 #top-content {
-    height: 80px;
+    height: 100px;
 
     position: sticky;
     top: 0;
@@ -20,19 +20,31 @@
 
 }
 
+.navbar {
+    height: 100%;
+}
+
+#small-logo {
+    height: 50px;
+    width: 50px;
+}
+
 #main-content {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
 }
 
 .sidebar {
-    flex-basis: 160px;
+    flex-basis: 30px;
     flex-shrink: 0;
 }
 
-
 main {
-    background-color: black;
     flex-grow: 1;
     overflow: auto;
+}
+
+header {
+    min-height: 100px;
+    background-color: #1B72E8;
 }
 
