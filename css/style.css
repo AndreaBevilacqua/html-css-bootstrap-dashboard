@@ -1,3 +1,5 @@
+/* Utils */
+
 .bg-white {
     background-color: #ffffff;
 }
@@ -13,6 +15,8 @@
 .bg-blue {
     background-color: #165BBA;
 }
+
+/* Top content */
 
 #top-content {
     height: 100px;
@@ -33,10 +37,14 @@
     width: 45px;
 }
 
+/* Bottom content */
+
 
 #main-content {
     height: calc(100vh - 100px);
 }
+
+/* Sidebar */
 
 .sidebar {
     flex-basis: 30px;
@@ -50,10 +58,14 @@
     }
 }
 
+/* Main */
+
 main {
     flex-grow: 1;
     overflow: auto;
 }
+
+/* Header Main */
 
 header {
     min-height: 100px;
@@ -70,6 +82,12 @@ header {
     margin-left: 20px;
 }
 
+.right-header i:hover {
+    background-color: white;
+    color: black;
+}
+
+
 @media screen and (max-width:576px) {
     header {
         flex-direction: column;
@@ -79,6 +97,8 @@ header {
         order: -1;
     }
 }
+
+/* Content Main */
 
 #avatar {
     height: 30px;
@@ -99,4 +119,6 @@ header {
     background-color: white;
 }
   
-
+#stats {
+    width: 100%;
+}
