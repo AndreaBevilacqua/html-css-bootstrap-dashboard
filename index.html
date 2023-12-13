@@ -28,7 +28,16 @@
                     <a href=""><i class="fa-solid fa-list-ul d-none d-lg-block"></i></a>
                     <a href=""><i class="fa-solid fa-circle-question d-none d-lg-block"></i></a>
                     <a href=""><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></a>
-                    <a href=""><i class="fa-solid fa-bell" style="color: #ffbb00;"></i></a>
+                    <div class="dropdown dropstart">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell" style="color: #ffbb00;"></i>
+                      </button></a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                      </ul>
+                    </div>
                 </div>
             </div>
           </nav>
@@ -71,7 +80,19 @@
                 </div>
 
                 <div class="right-header">
-                    <span class="new-student"> Nuovo Studente <a href="#" class="text-white"><i class="fa-solid fa-plus"></i></a></span>
+                    <span class="new-student"> Nuovo Studente <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" aria-label="Username">
+                            </div>       
+                          </div>
+                        </div>
+                    </span>
                 </div>
             </header>
 
