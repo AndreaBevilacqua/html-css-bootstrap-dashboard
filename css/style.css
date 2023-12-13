@@ -28,6 +28,12 @@
 
 }
 
+#top-content a {
+    text-decoration: none;
+    color: gray;
+    
+}
+
 .navbar {
     height: 100%;
 }
