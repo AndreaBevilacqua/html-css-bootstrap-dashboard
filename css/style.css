@@ -49,19 +49,13 @@
     padding: 0;
 }
 
-.btn:hover {
+.right-header .btn:hover {
     background-color: white;
     border: 0;
 }
 
-.btn {
+.right-header .btn {
     padding: 0;
-}
-
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active
-{
-    background-color: white;
-    border: 0;
 }
 
 /* Bottom content */
@@ -147,4 +141,9 @@ header {
   
 #stats {
     width: 100%;
+}
+
+
+.offcanvas.offcanvas-end {
+    width: 700px;
 }
