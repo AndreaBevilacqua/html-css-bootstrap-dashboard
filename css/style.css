@@ -93,7 +93,10 @@ header {
     border: 1px solid #6C757D;
     padding: 9px;
     border-radius: 7px;
+}
 
+.input-group-text {
+    background-color: white;
 }
   
 
