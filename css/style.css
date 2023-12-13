@@ -79,5 +79,21 @@ header {
         order: -1;
     }
 }
+
+#avatar {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.btn-gray {
+    text-decoration: none;
+    color: #6C757D;
+    display: inline-flex;
+    border: 1px solid #6C757D;
+    padding: 9px;
+    border-radius: 7px;
+
+}
   
 
